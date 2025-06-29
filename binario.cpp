@@ -570,7 +570,6 @@ int main()
             int pos;
             if (pesquisa(arq, d, pos))
             {
-                cout << "\nRegistro removido:\n";
                 cout << "Chave: " << d.chave << endl;
                 cout << "Nome: " << d.nome << endl;
             }
